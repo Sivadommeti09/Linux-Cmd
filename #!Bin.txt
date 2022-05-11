@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo yum -y install git httpd
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo git clone https://github.com/Sivadommeti09/food.git /var/www/html

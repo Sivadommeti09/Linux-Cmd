@@ -1,0 +1,20 @@
+Github CMD
+sudo yum -y install git
+git clone <code>
+git init
+git branch
+git add <file's>
+git ls-files
+git add <file's name>
+git commit -m "test-code" <files>
+git remote add origin https://github.com/Sivadommeti09/Linux-Cmd.git
+git push -u origin master
+git status
+git log
+git diff
+git show
+git branch <name of branch>
+git  checkout <name of branch>
+git log --oneline
+git merge <file name>
+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

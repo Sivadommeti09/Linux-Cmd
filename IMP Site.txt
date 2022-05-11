@@ -1,0 +1,7 @@
+https://cidr.xyz/
+https://httpd.apache.org/
+https://www.w3schools.com/
+https://angular.io/cli
+https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin
+wget http://15.206.163.24:8081/nexus/service/local/repositories/releases/content/com/web/cal/webapp/0.2/webapp-0.2.war
+https://crontab.guru/
