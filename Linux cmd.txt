@@ -44,7 +44,7 @@ sudo systemctl enable httpd
 sudo systemctl status httpd
 sudo systemctl restart httpd
 chmod 400
-scp -i <name of pem file><name of pem file>
+scp -i .\s.pem .\s.pem ec2-user@<Public IPv4 address>:~
 sudo su -shift to root user
 useradd -its creat use in linux
 passwd -d -its delete user password
