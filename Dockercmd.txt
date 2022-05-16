@@ -1,0 +1,20 @@
+sudo docker image ls
+sudo docker container ls
+sudo docker volume ls
+sudo usermod -aG docker ec2-user
+sudo chmod 666 /var/run/docker.sock
+docker ps
+docker ps -a
+docker rm -f <container or names>
+docker run -dt <image name>
+docker run -it <image name>
+docker exec -it <image name> bash
+cat /etc/os-release
+ps -ef | wc -l
+docker exec <image name> cat /etc/os-release
+docker exec <image name> touch file.txt
+docker exec <image name> ls
+docker run -dt  --name <ur wish> <ur what u want image name>
+docker run -dt --name <ur wish> -v /home/ec2-user/<folder name>:/app-vol
+curl
+
