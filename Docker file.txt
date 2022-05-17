@@ -1,0 +1,6 @@
+# use FROM directive to select the bash image
+# The BASE image is HTTPD
+FROM httpd
+
+# use COPY directive to copy the code
+COPY . /usr/local/apache2/htdocs/
