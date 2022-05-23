@@ -21,7 +21,7 @@ docker inspect <ur host name>
 docker run -dt  --name <ur wish> <ur what u want image name> -P
 docker run -dt --name <ur wish> -p 8080:80 -v /home/ec2-user/food:/usr/local/apache2/htdocs/ httpd
 docker file
-docker build -t <reop name>
+docker build -t <reop name> .
 docker login
 docker push
 docker <custm tag> /sivadommeti09/<tag>
